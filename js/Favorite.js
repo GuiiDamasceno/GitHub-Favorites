@@ -4,8 +4,6 @@ export class Git {
     constructor(root) {
         this.root = document.querySelector(root)
         this.load()
-
-        GitUsers.search('maykbrito').then(user => console.log(user))
     }
 
     load() {
